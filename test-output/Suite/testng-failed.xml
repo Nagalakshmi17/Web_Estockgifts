@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Smoke-Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <exclude name="Regression"/>
+        <exclude name="FullSuite"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Smoke_Test.home_page_with_all_links">
+        <methods>
+          <include name="CLickLinks"/>
+        </methods>
+      </class> <!-- Smoke_Test.home_page_with_all_links -->
+    </classes>
+  </test> <!-- Smoke-Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

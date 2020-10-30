@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="12.597" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Keyutech\Documents\eclipse-workspace\Estockgifts_website"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Keyutech\Documents\eclipse-workspace\Estockgifts_website"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Keyutech\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\sdk-tools-windows-4333796\tools;C:\Program Files\sdk-tools-windows-4333796\tools\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files\Git\cmd;C:\Users\Keyutech\AppData\Local\Android\android-sdk\platform-tools;C:\Program Files\PuTTY\;C:\Program Files (x86)\PuTTY\;C:\Users\Keyutech\AppData\Local\Android\android-sdk\bin;C:\Users\Keyutech\AppData\Local\Android\android-sdk\tools\emulator;C:\Python27\python.exe;C:\sqlmap\sqlmap.py;C:\Users\Keyutech\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\GnuWin32\bin;C:\Users\Keyutech\AppData\Roaming\npm;C:\Users\Keyutech\AppData\Local\GitHubDesktop\bin;C:\flutter\bin;C:\Users\Keyutech\AppData\Local\Android SDK\platform-tools;C:\Users\Keyutech\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Keyutech\AppData\Local\Android\android-sdk\tools;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Keyutech"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Keyutech"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -DSuite_Name=testng.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="Suite_Name" value="testng.xml"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Single_Card" classname="Smoke_Test.Single_Card_Creation" time="12.597">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
+	at org.testng.Assert.fail(Assert.java:93)
+	at Smoke_Test.Single_Card_Creation.Single_Card(Single_Card_Creation.java:78)
+</failure>
+    <system-out><![CDATA[15:51:09.322 [RxCachedThreadScheduler-2] DEBUG com.epam.reportportal.service.Launch - ReportPortal launch with ID 'a77d7a12-4a7e-475b-863d-8004f33b22d5' has been created
+15:51:09.329 [RxCachedThreadScheduler-2] DEBUG com.epam.reportportal.utils.LaunchFile - ReportPortal's temp file 'C:\Users\Keyutech\AppData\Local\Temp\reportportal\rplaunch-superadmin_TEST_EXAMPLE-#40-a77d7a12-4a7e-475b-863d-8004f33b22d5.tmp' is created
+15:51:09.705 [RxCachedThreadScheduler-3] DEBUG com.epam.reportportal.service.Launch - ReportPortal item with ID 'a046f3c0-af1d-46fb-b4f9-e80c9a9ef979' has been created
+15:51:09.705 [RxCachedThreadScheduler-3] DEBUG com.epam.reportportal.service.Launch - Starting test item...RxCachedThreadScheduler-3
+15:51:09.978 [RxCachedThreadScheduler-2] DEBUG com.epam.reportportal.service.Launch - ReportPortal item with ID '3dbce97f-c477-4b80-af87-842d2b1e96f7' has been created
+15:51:09.978 [RxCachedThreadScheduler-2] DEBUG com.epam.reportportal.service.Launch - Starting test item...RxCachedThreadScheduler-2
+15:51:10.116 [RxCachedThreadScheduler-1] DEBUG com.epam.reportportal.service.Launch - ReportPortal item with ID 'ab0e0fa7-be0a-4e61-95bf-731d2da28da8' has been created
+2020-10-20 15:51:16,475 [main] INFO  Base.Basetest - Firefox Browser Opened Sucessfully
+2020-10-20 15:51:22,396 [main] ERROR Base.Basetest - null
+]]></system-out>
+    <system-err><![CDATA[1603189271123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyutech\\AppData\\Local\\Temp\\rust_mozprofilec4qasg"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603189276246	Marionette	INFO	Listening on port 50955
+Oct 20, 2020 3:51:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

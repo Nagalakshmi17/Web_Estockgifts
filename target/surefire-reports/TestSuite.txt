@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.99 sec <<< FAILURE! - in TestSuite
+Single_Card(Smoke_Test.Single_Card_Creation)  Time elapsed: 12.597 sec  <<< FAILURE!
+java.lang.AssertionError: 
+	at org.testng.Assert.fail(Assert.java:93)
+	at Smoke_Test.Single_Card_Creation.Single_Card(Single_Card_Creation.java:78)
+
