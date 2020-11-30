@@ -61,14 +61,13 @@ public class Single_Card_Creation extends Basetest implements all_xpaths {
 // 			sendValue(Amount, prop.getProperty("Crypto_Value"));
 // 			logger.info("Enter crypto value Successfully");
 
-// // 			Payment_Type(prop.getProperty("Payment_Method"));
+// 			Payment_Type(prop.getProperty("Payment_Method"));
 
 		} catch (Exception e) {
 			/* logger.error("Test Fail", e); */
 			//onTestFailure();
 			// quitBrowser();
 			//Assert.fail("");
-			logger.info("Build Faild");
 			
 
 		}
