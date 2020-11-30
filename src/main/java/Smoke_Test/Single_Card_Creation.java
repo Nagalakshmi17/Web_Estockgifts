@@ -65,7 +65,7 @@ public class Single_Card_Creation extends Basetest implements all_xpaths {
 
 		} catch (Exception e) {
 			/* logger.error("Test Fail", e); */
-			onTestFailure();
+			//onTestFailure();
 			// quitBrowser();
 			Assert.fail("");
 
