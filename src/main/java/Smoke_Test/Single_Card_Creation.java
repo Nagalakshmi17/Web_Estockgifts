@@ -43,25 +43,25 @@ public class Single_Card_Creation extends Basetest implements all_xpaths {
 			sendValue(Recipient_Email, prop.getProperty("RecipientEmail"));
 			sendValue(Recipient_PhoneNo, prop.getProperty("RecipientPhoneNum"));
 
-			/*Uploadimage(Front_Image, prop.getProperty("Front_Image"));
-			click(Ok_Button);
-			Uploadimage(Back_Image, prop.getProperty("Back_Image"));
-			click(Ok_Button);
-			Uploadimage(Redeem_Image, prop.getProperty("Redeem_Image"));
-			click(Ok_Button);*/
-			//String abc = System.getProperty("user.dir")+"/images/frontimage.jpeg";
-			Upload(Front_Image,"C:\\Users\\Keyutech\\Documents\\eclipse-workspace\\Estockgifts_website\\images\\frontimage.jpeg");
-			click(front_OK);
-			logger.info("Images upload Successfully");
+// 			/*Uploadimage(Front_Image, prop.getProperty("Front_Image"));
+// 			click(Ok_Button);
+// 			Uploadimage(Back_Image, prop.getProperty("Back_Image"));
+// 			click(Ok_Button);
+// 			Uploadimage(Redeem_Image, prop.getProperty("Redeem_Image"));
+// 			click(Ok_Button);*/
+// 			//String abc = System.getProperty("user.dir")+"/images/frontimage.jpeg";
+// 			Upload(Front_Image,"C:\\Users\\Keyutech\\Documents\\eclipse-workspace\\Estockgifts_website\\images\\frontimage.jpeg");
+// 			click(front_OK);
+// 			logger.info("Images upload Successfully");
 			
 
-			sendValue(Message, prop.getProperty("Message"));
-			logger.info("Enter text Successfully");
+// 			sendValue(Message, prop.getProperty("Message"));
+// 			logger.info("Enter text Successfully");
 
-			sendValue(Amount, prop.getProperty("Crypto_Value"));
-			logger.info("Enter crypto value Successfully");
+// 			sendValue(Amount, prop.getProperty("Crypto_Value"));
+// 			logger.info("Enter crypto value Successfully");
 
-			Payment_Type(prop.getProperty("Payment_Method"));
+// // 			Payment_Type(prop.getProperty("Payment_Method"));
 
 		} catch (Exception e) {
 			/* logger.error("Test Fail", e); */
