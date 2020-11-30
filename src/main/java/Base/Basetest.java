@@ -253,8 +253,8 @@ public class Basetest implements all_xpaths {
 			java.util.Date d = new java.util.Date();
 			org.apache.commons.io.FileUtils.copyFile(srcFile,
 					new File("./ScreenShots/" + d.toString().replace(":", "_") + ".png"));
-			// String rp_message = "test message for ReportPortal";
-			// message = new ReportPortalMessage(srcFile, rp_message);
+			 String rp_message = "test message for ReportPortal";
+			 message = new ReportPortalMessage(srcFile, rp_message);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
