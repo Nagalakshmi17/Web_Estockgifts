@@ -30,7 +30,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.epam.reportportal.message.ReportPortalMessage;
+//import com.epam.reportportal.message.ReportPortalMessage;
 
 
 public class Basetest implements all_xpaths {
@@ -61,8 +61,7 @@ public class Basetest implements all_xpaths {
 				driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 				logger.info("IE Browser Opened Sucessfully");
 			} else if (browser.equalsIgnoreCase("Chrome")) {
-
-				WebDriverManager.chromedriver().setup();
+                                WebDriverManager.chromedriver().setup();
 				ChromeOptions options2=new ChromeOptions();
 				driver = new ChromeDriver(options2);
 				//driver = new ChromeDriver();
