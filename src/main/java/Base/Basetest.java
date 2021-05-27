@@ -26,8 +26,8 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import com.epam.reportportal.message.ReportPortalMessage;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Basetest implements all_xpaths {
 
