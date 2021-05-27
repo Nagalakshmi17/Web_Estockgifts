@@ -62,10 +62,10 @@ public class Basetest implements all_xpaths {
 				logger.info("IE Browser Opened Sucessfully");
 			} else if (browser.equalsIgnoreCase("Chrome")) {
 
-				System.setProperty("webdriver.chrome.driver",
-						System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-				// create Chrome instance
-				driver = new ChromeDriver();
+				WebDriverManager.chromedriver().setup();
+				ChromeOptions options2=new ChromeOptions();
+				driver = new ChromeDriver(options2);
+				//driver = new ChromeDriver();
 				driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 				logger.info("Chrome Browser Opened Sucessfully");
 			} else if (browser.equalsIgnoreCase("Firefox")) {
